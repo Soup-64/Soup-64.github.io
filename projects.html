@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+<link rel="stylesheet" href="page.css">
+  <link rel="icon" type="image/x-icon" href="./cat.ico">
+
+<title>Projects</title>
+</head>
+
+<body style="background-image: url('turn.png');">
+
+<div class="header">
+<h1>Projects</h1>
+<hr style="width:105pt;text-align:left;margin-left: -5pt; background-color:black;border-width:0; height:3pt;">
+<h3>
+<a href="./index.html">About</a><br>
+<a href="./projects.html">Projects</a><br>
+<a href="./contacts.html">Contacts</a><br>
+<a href="./misc.html">Misc</a><br>
+<a href="./fun.html">Fun</a>
+</h3>
+</div>
+
+
+<div class="main" style="padding: 25px; margin: 25px;  margin-left: 150pt;">
+   <img src="./Line.gif" alt="" width="100%" height="5">
+
+   <h3 style="text-align:left;">   Project 1: ITOxygen AI weld analysis team</h3>
+   <p style="overflow:auto;text-align:left">
+ITOxygen is an enterprise at Michigan Tech, where students generally work in teams to develop professional projects
+in a more real world environment. This project was company sponsored, though they wish to be unnamed.
+I was personally tasked with developing the frontend for the software, which I ended up using Qt for since it provides
+bindings for use in Python projects. More specifically, I used Qt's QML, a markup language with a builtin javascript engine
+to create modern and dynamic interfaces. Teammates built the bokeh generated graph while I handled integrating it with the
+rest of the ui using an embedded webview. The goal was to allow users to analyze downtime in welding machines using a
+variety of date ranges to pick out patterns and view specific data like "every sunday for these 3 weeks".
+   </p>
+   <img src="./ex2.png" alt="example1" height="auto">
+   <img src="./ex1.png" alt="example2" height="auto">
+   <p></p>
+
+   <img src="./Line.gif" alt="" width="100%" height="5">
+</div>
+
+<div class="main" style="padding: 25px; margin: 25px;  margin-left: 150pt;">
+   <img src="./Line.gif" alt="" width="100%" height="5">
+
+   <h3 style="text-align:left;">   Project 2: Husky Game Development Cabinet Launcher</h3>
+   <p style="overflow:auto;text-align:left">
+This is an older project that I did in January 2023, Husky Games is an enterprise at michigan tech
+that makes games. They also have an arcade cabinet that a select few of their past games are
+available on to play outside their lab room. Unfortunately, the game launcher ui for the cabinet
+was very buggy (constantly softlock and require hard restarts) and the source code was seemingly lost.
+So I took it upon myself to rewrite the UI from scratch. It was done using C# and the Avalonia UI toolkit,
+which is markup based. I also wrote a spec for game metadata so games could provide a small json file to
+include a list of authors, an example image for the game, and a few other details that are
+displayed on the launcher.
+   </p>
+   <img src="./cabinet.jpg" alt="an example image of the cabinet with the new software running on it, the person taking the photo is also giving a thumbs up in front of the camera." width="30%">
+<!--    <img src="./ex1.png" alt="example2" height="auto"> -->
+   <p></p>
+
+   <img src="./Line.gif" alt="" width="100%" height="5">
+</div>
+
+<div class="main" style="padding: 25px; margin: 25px;  margin-left: 150pt; border-image: url(HudBackground.png) 8 8 8 8 fill / 8px 8px 8px 8px; padding: 8px 8px 8px 8px; color: white; font-family: Courneuf-Regular; font-size: 14pt;">
+
+   <h3 style="text-align:left;">   Project 3: Iridos</h3>
+   <p style="overflow:auto;text-align:left">
+   This is a game I worked on at the Husky game Development Enterprise at Michigan Tech for 3 semesters.
+   It's a 2D platformer that I was the lead programmer for, and wrote the fast majority of the game's systems, both high level
+   systems like the player movement and low level components for other developers, like the dialogue system, the puzzle system, most of the user interface, etc.
+   It's written in godot 3 and the itch.io page linked below includes a web player to try it out in.
+   </p>
+
+
+
+    <div class="parent">
+      <h2>The embed failed to load, sorry about that!</h2>
+      <div class="child">
+        <iframe src="https://itch.io/embed/1412820" width="552" height="167" frameborder="0"><a href="https://huskygamedev.itch.io/iridos">Iridos by Husky Game Development</a></iframe>
+      </div>
+    </div>
+
+   <img src="./aWsGav.png" width="30%">
+
+<!--    <img src="./ex1.png" alt="example2" height="auto"> -->
+   <p></p>
+
+</div>
+
+</body>
+</html>
